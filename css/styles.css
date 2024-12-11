@@ -3034,7 +3034,7 @@ td:last-child {
  *
  * ------------------------------------------------------------------- */
 .s-header {
-    --header-height : 72px;
+    --header-height : 95px;
     --logo-width    : 10.2rem;
     --width-grid-max: calc(var(--width-sixteen-cols) - calc(var(--gutter) * 2));
     --box-shadow    : 0 1px 1px rgba(0, 0, 0, 0.02),
@@ -3055,7 +3055,7 @@ td:last-child {
 }
 
 .s-header.offset {
-    transform          : translateY(-100%);
+    transform          : translateY(-150%);
     transition-property: transform, background-color;
     transition-duration: 0.5s;
 }
